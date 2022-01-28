@@ -18,7 +18,7 @@ class StripeUiOptions {
   static void Function(BuildContext, Map<String, dynamic>) onPaymentSuccess = _defaultOnPaymentSuccess;
   static void Function(BuildContext, StripeApiException) onPaymentError = _defaultOnPaymentError;
 
-  static String defaultWebReturnUrl = "/";
+  static String defaultWebReturnUrl = "https://scooptix.com";
 
   static String defaultMobileReturnUrl = "stripesdk://3ds.stripesdk";
   static bool showTestPaymentMethods = false;
